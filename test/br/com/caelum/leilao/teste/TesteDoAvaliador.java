@@ -30,9 +30,11 @@ public class TesteDoAvaliador {
 		// parte 3: validacao
 		double maiorEsperado = 400;
 		double menorEsperado = 250;
+		double mediaEsperada = 316.6666666666667;
 		
 		Assert.assertEquals(maiorEsperado, leiloeiro.getMaiorLance(), 0.00001);
 		Assert.assertEquals(menorEsperado, leiloeiro.getMenorLance(), 0.00001);
+		Assert.assertEquals(mediaEsperada, leiloeiro.getMediaDosLances(), 0.00001);
 
 	}
 
