@@ -11,7 +11,7 @@ import org.junit.Assert;
 public class TesteDoAvaliador {
 
 	@Test
-	public void main() {
+	public void deveEntenderLancesEmOrdemCrescente() {
 		// parte 1: cenario
 		Usuario joao = new Usuario("João");
 		Usuario maria = new Usuario("Maria");
